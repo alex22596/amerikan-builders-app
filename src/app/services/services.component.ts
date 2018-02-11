@@ -31,6 +31,6 @@ export class ServicesComponent implements OnInit {
     ];
 
     this.gallery.load(images);
-    this.gallery.config.imageSize = '90px';
+    this.gallery.config.imageSize = '40em';
   }
 }

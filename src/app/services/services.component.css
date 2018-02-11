@@ -9,13 +9,3 @@ p {
     margin-right: auto;
     width: 100%;
 }
-
-.modal {
-    min-width: 100%;    
-    min-height: 100%;
-}
-
-gallery {
-    width: 120em;
-    background: red;
-}
