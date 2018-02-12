@@ -14,9 +14,10 @@ export class AboutUsComponent implements OnInit {
   constructor() { }
   ngOnInit() {
     var options = [
-      {selector: '#asd', offset: 100, callback: function(el) {
+      {
+        selector: '#owner', offset: 100, callback: function(el) {
         Materialize.fadeInImage($(el));
-      } }
+      }}
     ];
     Materialize.scrollFire(options);
   }

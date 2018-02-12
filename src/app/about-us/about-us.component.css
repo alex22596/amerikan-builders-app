@@ -2,8 +2,7 @@ p {
     text-align: justify;
 }
 
-#asd {
+#owner {
     opacity: 0;
-    width: 22vh;
-    height: 28vh;
+    max-width: 7em;
 }
