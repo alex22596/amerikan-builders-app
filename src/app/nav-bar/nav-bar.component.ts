@@ -12,7 +12,7 @@ export class NavBarComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    $(".button-collapse").sideNav();
+    $('.button-collapse').sideNav();
     
     $("a[href^=\\#").on('click', function() {
       $('html, body').animate({

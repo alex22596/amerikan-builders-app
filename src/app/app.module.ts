@@ -10,6 +10,8 @@ import { CarouselComponent } from './carousel/carousel.component';
 import { ServicesComponent } from './services/services.component';
 import { AboutUsComponent } from './about-us/about-us.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
+import { FooterCopyrightComponent } from './footer-copyright/footer-copyright.component';
+import { WelcomeComponent } from './welcome/welcome.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +22,8 @@ import { ContactUsComponent } from './contact-us/contact-us.component';
     ServicesComponent,
     AboutUsComponent,
     ContactUsComponent,
+    FooterCopyrightComponent,
+    WelcomeComponent,
   ],
   imports: [
     BrowserModule,
