@@ -3,9 +3,27 @@
 }
 
 i {
-    vertical-align: top;
+    vertical-align: text-bottom;
 }
 
-#whatsapp-logo {
-    margin-right: 1.2em; 
+#telephone-number, #email {
+    display: block;
+}
+
+#whatsapp-logo{
+    margin: 1em 1.5em 0 0;
+}
+
+#email {
+    margin-bottom: 1.5em; 
+}
+
+@media only screen and (max-width: 992px) {
+    #email {
+        margin-top: 1.5em; 
+    }
+}
+
+a {
+    vertical-align: baseline;
 }
