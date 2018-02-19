@@ -1,22 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
 .g-overlay {
     min-width: 300px;
- }
-
-h1 {
-    font-size: 45px;
 }
 
 h2 {
-    font-size: 35px;
+    font-size: 45px;
 }
 
 h3 {
-    font-size: 30px;
+    font-size: 40px;
 }
 
 p {
-    font-size: 20px;
+    font-size: 22px;
+    color: #9D9D9D;
 }
 
 
@@ -28,4 +25,14 @@ p {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.shadow-background {
+    filter: brightness(0.7);;
+}
+
+.absolute-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

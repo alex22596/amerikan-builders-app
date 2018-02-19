@@ -12,6 +12,8 @@ import { AboutUsComponent } from './about-us/about-us.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { FooterCopyrightComponent } from './footer-copyright/footer-copyright.component';
 import { WelcomeComponent } from './welcome/welcome.component';
+import { YgreneInfoComponent } from './ygrene-info/ygrene-info.component';
+import { ParallaxComponent } from './parallax/parallax.component';
 
 @NgModule({
   declarations: [
@@ -24,11 +26,13 @@ import { WelcomeComponent } from './welcome/welcome.component';
     ContactUsComponent,
     FooterCopyrightComponent,
     WelcomeComponent,
+    YgreneInfoComponent,
+    ParallaxComponent
   ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
-    GalleryModule.forRoot()
+    GalleryModule.forRoot(),
   ],
   providers: [],
   bootstrap: [AppComponent]

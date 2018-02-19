@@ -14,7 +14,7 @@ export class NavBarComponent implements OnInit {
   ngOnInit() {
     $('.button-collapse').sideNav();
     
-    $("a[href^=\\#").on('click', function() {
+    $('a[href^=\\#').on('click', function() {
       $('html, body').animate({
         scrollTop:$(this.hash).offset().top
       }, 500);
